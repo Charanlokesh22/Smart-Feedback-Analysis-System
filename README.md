@@ -20,7 +20,6 @@ An intelligent feedback collection and sentiment analysis platform using FastAPI
 
  Folder Structure
 smart-feedback-analysis/
-│
 ├── app/
 │   ├── main.py
 │   ├── auth.py
@@ -31,6 +30,7 @@ smart-feedback-analysis/
 ├── docker-compose.yml
 ├── requirements.txt
 ├── README.md
+
 
 
 Running with Docker
