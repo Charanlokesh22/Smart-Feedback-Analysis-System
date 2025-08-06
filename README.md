@@ -17,6 +17,26 @@ An intelligent feedback collection and sentiment analysis platform using FastAPI
 - View dashboard with real-time sentiment stats
 - Export feedback logs as CSV
 
+
+ Folder Structure
+smart-feedback-analysis/
+│
+├── app/
+│   ├── main.py
+│   ├── auth.py
+│   ├── models.py
+│   ├── monitor.py
+│   └── config.py
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── README.md
+
+
+Running with Docker
+docker-compose up --build
+
+
  Installation
 git clone https://github.com/Charanlokesh22/smart-feedback-analysis.git
 cd backend
